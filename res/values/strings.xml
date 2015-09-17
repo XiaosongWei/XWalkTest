@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">XWalkTest</string>
+    <string name="xwalkactivity">XWalkActivity</string>
+    <string name="xwalkinitializer">XWalkInitializer</string>
+    <string name="xwalkview">XWalkView</string>
+    <string name="xwalkdownload">XWalkDownload</string>
+    <string name="webview">WebView</string>
+</resources>

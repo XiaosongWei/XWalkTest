@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Create Window 1</title>
+  <script type="text/javascript">
+    function createWindow() { window.open("create_window_2.html", "_blank", ""); }
+    function closeWindow() { window.close(); }
+  </script>
+</head>
+<body>
+  <p><a id="link" href="new_window.html" target="myFrame2">Click me!</a></p>
+  <p>Create window <button onclick="createWindow();">button</button></p>
+  <p>Close window <button onclick="closeWindow();">button</button></p>
+</body>
+</html>
