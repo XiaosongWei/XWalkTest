@@ -15,7 +15,7 @@ import org.xwalk.core.XWalkUpdater;
 import org.xwalk.core.XWalkView;
 
 public class XWalkDownloadActivity extends Activity
-        implements XWalkInitializer.XWalkInitListener, XWalkUpdater.XWalkSilentUpdateListener {
+        implements XWalkInitializer.XWalkInitListener, XWalkUpdater.XWalkBackgroundUpdateListener {
     private static final String TAG = "XWalkActivity";
 
     XWalkInitializer mXWalkInitializer;
@@ -72,6 +72,11 @@ public class XWalkDownloadActivity extends Activity
 
     @Override
     public void onXWalkUpdateStarted() {
+    }
+
+    @Override
+    public void onXWalkUpdateProgress(int percentage) {
+        Log.d(TAG, "XWalkUpdate progress: " + percentage);
     }
 
     @Override
