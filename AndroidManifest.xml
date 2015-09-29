@@ -16,7 +16,6 @@
         android:allowBackup="true" >
 
         <meta-data android:name="xwalk_apk_url" android:value="http://10.0.2.2/XWalkRuntimeLib.apk" />
-        <meta-data android:name="xwalk_lib_url" android:value="http://10.0.2.2/XWalkRuntimeLib.zip" />
 
         <activity
             android:name="org.xwalk.test.MainActivity"
